@@ -1,0 +1,21 @@
+# Created with YamlCreate.ps1 v2.2.10 $debug=QUSU.CRLF.5-1-22621-1778.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+PackageIdentifier: XBMCFoundation.Kodi
+PackageVersion: 20.2.0.0
+InstallerLocale: en-US
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  InstallerUrl: https://mirrors.kodi.tv/releases/windows/win32/kodi-20.2-Nexus-x86.exe
+  InstallerSha256: 696EF2D1ADAFD70CB5B7AB2A4692D33E73F914BCB595411AFA21158C83659E22
+- Architecture: x64
+  InstallerUrl: https://mirrors.kodi.tv/releases/windows/win64/kodi-20.2-Nexus-x64.exe
+  InstallerSha256: E52B3D25E8577A8C83F8A90B573EDB4F4F5E402013ACBBEED0457CFA5401BC0C
+ManifestType: installer
+ManifestVersion: 1.5.0
